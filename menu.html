@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style3.css">
+     <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+<body>
+   <header>
+    <div class="logo">
+        🍽 Royal Feast
+    </div>
+
+    <nav>
+        <ul>
+           <li><a href="/homepage.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a class="active" href="/menu.html">Menu</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="branch.html">Branches</a></li>
+            
+        <li class="dropdown">
+    <a href="javascript:void(0)">More ▼</a>
+
+    <ul class="dropdown-menu">
+        <li><a href="table.html">Reservation</a></li>
+        <li><a href="staff.html">Team</a></li>
+        <li><a href="test.html">Testimonial</a></li>
+        <li><a href="online order.html">Online Order</a></li>
+        <li><a href="/location.html">Location</a></li>
+        <li><a href="/fqa.html">FQA</a></li>
+    </ul>
+</li>
+            <li><a href="login.html" class="login-btn">Login</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+<!-- ================= MENU SECTION ================= -->
+
+<section id="menu">
+ 
+    <h5>OUR MENU</h5>
+    <h1>Signature Delicacies</h1>
+
+    <div class="menu-buttons">
+        <button class="active" onclick="filterMenu('starters',this)">Starters</button>
+        <button onclick="filterMenu('main-course',this)">Main Course</button>
+        <button onclick="filterMenu('desserts',this)">Desserts</button>
+        <button onclick="filterMenu('drinks',this)">Drinks</button>
+    </div>
+
+    <div class="menu-container">
+
+        <!-- STARTERS -->
+
+        <div class="card starters">
+            <img src="/bruschetta.jpg">
+            <div class="card-content">
+                <h3>Royal Bruschetta <span>$12</span></h3>
+                <p>Toasted bread with tomato, basil and olive oil.</p>
+            </div>
+        </div>
+
+        <div class="card starters">
+            <img src="/goldensoup.jpg">
+            <div class="card-content">
+                <h3>Golden Soup <span>$10</span></h3>
+                <p>Creamy pumpkin soup with herbs.</p>
+            </div>
+        </div>
+
+        <div class="card starters">
+            <img src="/crown salad.jpg">
+            <div class="card-content">
+                <h3>Crown Salad <span>$14</span></h3>
+                <p>Fresh vegetables with cheese and dressing.</p>
+            </div>
+        </div>
+    
+
+        <!-- MAIN COURSE -->
+
+        <div class="card main-course">
+            <img src="/biryani.jpeg">
+            <div class="card-content">
+                <h3>Royal Biryani <span>$22</span></h3>
+                <p>Authentic biryani with aromatic spices.</p>
+            </div>
+        </div>
+
+        <div class="card main-course">
+            <img src="/grilled salmon.jpg">
+            <div class="card-content">
+                <h3>Grilled Salmon<span>$28</span></h3>
+                <p>Herb-crusted salmon, lemon butter, asparagus.</p>
+            </div>
+        </div>
+
+        <div class="card main-course">
+            <img src="/royal pasta.png">
+            <div class="card-content">
+                <h3>Royal Pasta<span>$18</span></h3>
+                <p>Handmade fettuccine with truffle cream sauce.</p>
+            </div>
+        </div>
+
+        <!-- DESSERTS -->
+
+        <div class="card desserts">
+            <img src="/cheesecake.jpg">
+            <div class="card-content">
+                <h3> Royal Cheesecake<span>$9</span></h3>
+                <p>New York style with fresh berry compote.</p>
+            </div>
+        </div>
+
+        <div class="card desserts">
+            <img src="/molten crown.jpg">
+            <div class="card-content">
+                <h3>Molten Crown <span>$10</span></h3>
+                <p>Warm chocolate lava cake, vanilla bean ice cream.</p>
+            </div>
+        </div>
+
+        <div class="card desserts">
+            <img src="/tiramisu royale.jpg">
+            <div class="card-content">
+                <h3>Tiramisu Royale <span>$7</span></h3>
+                <p>Espresso-soaked layers, mascarpone cream.</p>
+            </div>
+        </div>
+
+        <!-- DRINKS -->
+
+        <div class="card drinks">
+            <img src="/mojitos.avif">
+            <div class="card-content">
+                <h3>Royal Mojito<span>$6</span></h3>
+                <p>Mint, lime and soda.</p>
+            </div>
+        </div>
+
+        <div class="card drinks">
+            <img src="/cold coffee.jpg">
+            <div class="card-content">
+                <h3>Cold Coffee <span>$8</span></h3>
+                <p>Cold coffee with whipped cream.</p>
+            </div>
+        </div>
+
+        <div class="card drinks">
+            <img src="/orange juice.jpg">
+            <div class="card-content">
+                <h3>Orange Juice <span>$5</span></h3>
+                <p>Freshly squeezed orange juice.</p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+<footer class="footer">
+    <div class="footer-container">
+
+        <div class="footer-box">
+            <h2>Royal Feast</h2>
+            <p>
+                Experience the taste of luxury with delicious food,
+                elegant ambiance, and unforgettable moments.
+            </p>
+        </div>
+
+        <div class="footer-box">
+            <h3>Quick Links</h3>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="menu.html">Menu</a>
+            <a href="branches.html">Branches</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+        <div class="footer-box">
+            <h3>Contact</h3>
+            <p>📍 Pune, Maharashtra</p>
+            <p>📞 +91 98765 43210</p>
+            <p>✉ info@royalfeast.com</p>
+        </div>
+
+        <div class="footer-box">
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-twitter-x"></i></a>
+                <a href="#"><i class="bi bi-whatsapp"></i></a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 Royal Feast. All Rights Reserved.</p>
+    </div>
+</footer>
+
+
+
+<script src="/menu.js"></script>
+
+</body>
+</html>
